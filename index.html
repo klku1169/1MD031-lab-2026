@@ -1,1 +1,92 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>BurgerHevean order</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+        <header>
+            <h1>Välkommen till BurgerOnline</h1>
+        </header>
+        <main>
+            <section>
+                <nav><h3>Select burger</h3></nav>
+            </section>
+            <section>
+                <div>Välj vilken burgare du vill beställa nedan</div>
+
+                <div style="display: flex;">
+                    <div><h4>God burger</h4>
+            
+                        <figure><img src="https://www.primaverakitchen.com/wp-content/uploads/2024/08/Hamburger-Recipe-7.jpg" alt="God burger" title="Another in-line element" style="width: 200px"></figure>
+                        <ul>
+                            <li>Gluten</li>
+                            <li>Laktos</li>
+                            <li>Kött</li>
+                        </ul>
+                    </div>
+
+                    <div><h4>Slay burger</h4>
+            
+                        <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbJGEpDVoL5XRmbtZGcEXLSePkIpFAryoU-t775pgEVA9f2op8xhKAPQg&s=10" alt="Slay burger" title="Another in-line element" style="width: 300px"></figure>
+                        <ul>
+                            <li>Lök</li>
+                            <li>Laktos</li>
+                            <li>Soja</li>
+                        </ul>
+                    </div>
+
+                    <div><h4>Galen burger</h4>
+            
+                        <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6WQBtO8-3vosame4NqPi3XuQ-tdi-YFixbbxNSKwSB6twwgujpR0TvxM&s=10" alt="Galen burger" title="Another in-line element" style="width: 200px"></figure>
+                        <ul>
+                            <li>Allt</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <nav><h3>Leveransinformation</h3></nav>
+                    <p>
+                        <label for="name">Full namn</label><br>
+                        <input type="text" id="name" name="n" required="required" placeholder="Name">
+                    </p>
+                    <p>
+                        <label for="email">E-mail</label><br>
+                        <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+                    </p>
+                    <p>
+                        <label for="street">Street</label><br>
+                        <input type="text" id="street" name="st" required="required" placeholder="Street address">
+                    </p>
+                    <p>
+                        <label for="housenumber">House number</label><br>
+                        <input type="number" id="housenumber" name="hn" required="required" placeholder="House number">
+                    </p>
+                    <p>
+                        <label for="Betalmetod">Betalmetod</label><br>
+                            <select id="Betalmetod" name="Betalmetod">
+                                <option>Kort</option>
+                                <option>Swish</option>
+                                <option>Kontant</option>
+                            </select>
+                    </p>
+                    <p>
+                        Gender:<br>
+                        <label><input type="radio" name="gender" value="female" checked> Female</label><br>
+                        <label><input type="radio" name="gender" value="male"> Male</label><br>
+                        <label><input type="radio" name="gender" value="prefer-not-to-say"> Unisex </label>
+                    </p>
+            </section>
+
+            <button type="button">
+                <img src="https://thumbs.dreamstime.com/b/plan-symbol-f%C3%B6r-hamburgare-rund-f%C3%A4rgrik-knapp-n%C3%B6tk%C3%B6tthamburgarecirkul%C3%A4r-94805345.jpg" alt="Skicka beställning" style="width: 20px;">
+                Slutför beställning
+            </button>
+        </main>
+
+        <hr>
+            <footer>Tack för din beställning!</footer>
+      
+   </body>
+</html>
